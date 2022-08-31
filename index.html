@@ -1,0 +1,11 @@
+<html>
+<title>xss</title>
+<body>
+<button>click here pop up xss </button>
+</body>
+<script>
+document.querySelector("button").onClick = function(){
+alert("xss popped");
+}
+</script>
+</html>
